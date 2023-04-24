@@ -14,7 +14,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PlaceBook"
         tools:targetApi="31">
-
+        <activity
+            android:name=
+                "com.raywenderlich.placebook.ui.BookmarkDetailsActivity"
+            android:label="Bookmark"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden">
+        </activity>
         <!--
              TODO: Before you run your application, you need a Google Maps API key.
 
